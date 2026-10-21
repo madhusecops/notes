@@ -1,0 +1,137 @@
+What is DevOps?
+
+
+SDLC: Software Development Life Cycle
+
+Developers: who is going to write code
+Testers : test functionality
+
+sell clothes online - Ecommerce website
+
+Requirements:
+  - sellers and customers sign up or registration
+  - product search
+  - login page
+  - shopping cart
+  - filters to search products
+  - order status
+
+Design: architect and designers
+  - decide website appearance
+  - Database (MySQL), FE, BE
+  - product page design
+
+Develop code:
+  - Frontend code
+  - Backend
+  - Database 
+
+Testing:
+  - Does add to cart work?
+  - Is the correct total calculated?
+  - Payment success or not?
+
+Deployment:
+  - Making it live to end users or customers
+
+Maintenance:
+  - team monitoring performance
+  - fix bugs
+  - Security updates
+  - Scaling
+  - Cost optimization
+
+
+
+Water fall Vs Agile vs Agile with DevOps
+----------------------------------------
+
+Stake holders:
+
+Developers, customers, sellers, Tester, Business Analyst, Manager
+
+
+
+Agile
+
+
+sprints (modules)
+  - registration - sprint-1(15)
+  - sign in      - sprint-2 
+
+  - registration (testers)
+
+
+
+Agile with DevOps
+
+
+DevOps- 
+
+Developers - write code each day, and they make multiple commits to (SCM) - git, GitHub
+
+            - Github actions or Jenkins(CI CD/ continuous delivery or Continuous Deployment)
+
+
+DevOps - When developers write code multiple times a day and push it remote repo, we are      going to automate , build, testing and deployment
+
+
+Shift left
+
+DevSecOps - 
+
+
+SAST - Static Application Security Testing
+
+DAST - Dynamic Application Security Testing
+
+
+99.99% uptime
+
+SLA: Service Level Agreement
+
+
+P1 - Most priority
+P2
+P3
+P4 
+P5 - Low priority
+
+
+etc tec 
+
+AIOps - Monitoring
+      - Monday ( 30% CPU)
+      - 40 % 10 mins
+
+     - 70% for 15 mins
+
+  - AI is going to predict anomalies
+
+  CPU < 70%  - get an alert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
