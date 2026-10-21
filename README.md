@@ -12,8 +12,9 @@ text form — so you can follow along while watching instead of pausing to type.
 
 | Day | Notes | Topics |
 | --- | --- | --- |
+| Day 1 | [day-1.txt](day-1.txt) | Course roadmap - everything covered in the series: Linux, Shell, Python, Git, Terraform, Ansible, Docker, Kubernetes, CI/CD, build tools, monitoring, security tools |
 | Day 2 | [day-2.txt](day-2.txt) | What is DevOps, SDLC, Waterfall vs Agile vs Agile+DevOps, CI/CD, Shift Left, DevSecOps, SAST/DAST, SLA & priorities, AIOps |
-| Day 3 | [day-3.txt](day-3.txt) | _coming up_ |
+| Day 3 | [day-3.txt](day-3.txt) | What is Linux, RAM/HDD/CPU/OS basics, Windows vs Linux, distributions, protocols & common ports, SSH into an EC2 instance, directory structure, user types, getting help (`--help`, `man`, `history`) |
 
 ## How to use these notes
 
