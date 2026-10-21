@@ -1,0 +1,73 @@
+Day-3:
+
+What is Linux?
+
+RAM - Random Access Memory (fast/volatile)
+HDD - Permanent storage
+Processor - CPU, brain
+OS - Operating system
+
+Windows - GUI - Graphical User Interface
+  - High resources -(RAM, more storage, More network Bandwidth, and more CPU as well)
+
+Linux - Terminal or text
+  - Open Source
+  Linus Torvald, Kernal, git 
+
+Distribution: different flavour
+ Ubuntu, Kali Linux, Centos, Redhat, Amazon Linux, parrot
+
+Redhat - Enterprise edition, dnf package manager
+
+uname 
+
+98% 
+2%
+
+
+Authentication
+
+
+protocol: set of rules or guidelines
+
+
+port: 65535 ports on our computer 
+
+http:80
+https:443
+ssh: 22
+MySQL: 3306
+RDP: 3389
+
+
+https://madhukarreddy.com:443
+
+
+SSH -22
+
+ec2-user
+
+ssh ubuntu@23.22.168.92 -i ytops
+
+\
+
+/ - root directory
+
+/home/ubuntu - User's home directory
+
+
+3 types of users:
+
+regular users - $
+admins or administrators - #
+system users
+
+
+command flags/options inputs
+
+
+command --help
+
+man command
+
+history
