@@ -1,0 +1,16 @@
+Topics Covered:
+  - Linux administration
+  - Shell Scripting
+  - Python for DevSecOps
+  - Git (Version Control)
+  - Terraform 
+  - Ansible
+  - Docker - containerization tool
+  - Kubernetes (k8s) - manfiest, YAML
+  - Jenkins and Github Actions (CI/CD), ArgoCD
+  - Build tools (mvn,npm, pip) -
+  - Monitoring ( Prometheus, Grafana) with AI Assisted OPs
+  - Security Tools (SonarQube, Trivy, Veracode, Owasp ZAP, Gitleaks, Checkov,etc etc)
+
+
+shift left
