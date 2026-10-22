@@ -8,11 +8,11 @@ zip results.zip target_files/folders
 
 tar - tar.gz
 
-tar -zvcf resultz.tar.gz target_files/folders - create tar-ball
+tar -zcvf results.tar.gz target_files/folders - create tar-ball
 
-tar -xvf resultz.tar.gz - to extract content
+tar -xvf results.tar.gz - to extract content
 
-tar -tvf resultz.tar.gz - check content without extracting
+tar -tvf results.tar.gz - check content without extracting
 
 
 find
@@ -35,7 +35,7 @@ find path -type f -name devops: to search for users file
 
 Debian: kali, ubuntu - apt or apt-get, dpkg .deb
 
-/etc/suu
+/etc/apt/sources.list and /etc/apt/sources.list.d/
 
 Centos, redhat, amazon Linux,: dnf, yum, .rpm ( rpm -i - /etc/yum.repos.d/
 
