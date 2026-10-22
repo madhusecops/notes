@@ -1,0 +1,99 @@
+Day-6 of DevSecOps with AIOps:
+
+how we can compress files in Linux
+
+zip - compression archive
+
+zip results.zip target_files/folders
+
+tar - tar.gz
+
+tar -zvcf resultz.tar.gz target_files/folders - create tar-ball
+
+tar -xvf resultz.tar.gz - to extract content
+
+tar -tvf resultz.tar.gz - check content without extracting
+
+
+find
+
+find . -name devops
+find path -name devops
+
+find path -type d -name devops: to search for devops directory
+
+find path -type f -name devops: to search for users file
+
+
+1) Lock the user
+2) you gonna force him/her to logout
+3) take back of user's data
+4) you can delete his/her data
+5) you can look for existing files/folders
+6) userdel -r madhu
+
+
+Debian: kali, ubuntu - apt or apt-get, dpkg .deb
+
+/etc/suu
+
+Centos, redhat, amazon Linux,: dnf, yum, .rpm ( rpm -i - /etc/yum.repos.d/
+
+apt install nginx -y
+
+
+apt install terraform
+apt search
+
+cat /etc/os-release
+
+apt remove terraform
+
+systemctl enable nginx
+
+systemctl disable nginx 
+
+systemctl status nginx
+systemctl restart sshd
+
+
+
+Process management
+
+kill pid - gracefully stopping
+kill -9 pid - stop process forcefully
+
+
+
+netstat or ss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
