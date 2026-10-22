@@ -132,8 +132,10 @@ press o: to get insert mode in next line
 
 yy - to copy line
 p - paste it
+:s/old-word.new-word - it replaces only first occurrence in current line
+:s/old-word.new-word/g - it replaces all occurrence in current line
 
-%s/old-word/new-word - it replaces only first occurrence in all the lines
+:%s/old-word/new-word - it replaces only first occurrence in all the lines
 
-%s/old-word/new-word/g - it replaces all occurrence in all the lines
+:%s/old-word/new-word/g - it replaces all occurrence in all the lines
 
