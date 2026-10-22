@@ -1,0 +1,76 @@
+Day-5:
+
+User management in Linux
+
+
+useradd or adduser
+
+
+/etc/ssh/sshd_config
+
+
+usermod
+
+
+/etc/sudoers
+
+
+
+add /etc/sudoers.d/
+
+
+sudo admin
+
+gpasswd -d username groupname
+
+userdel username
+
+
+groupadd group_name
+
+
+/home/Madhu/.ssh/authorized_keys
+
+
+
+How to change ownership
+
+chown owner:group file/directory
+
+
+Permissions
+
+
+
+drwx       r-x          r-x   2     root     root  4096 Oct 22 11:46 devops
+
+Owner      group        others      owner    group
+
+
+r - 4
+
+w - 2
+
+x - 1
+
+
+chmod 
+
+users - u
+group - g
+other - o
+
+
+chmod 7     6       0 aws.txt
+      owner group   others
+
+7 - rwx
+6  -rw
+0 - zero perms
+
+
+
+chmod o-rwx devops
+
+chmod u+rwx,g-rwx file/directory
+
