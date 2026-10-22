@@ -1,0 +1,139 @@
+Day-4 of DevSecOps:
+
+
+mkdir aws
+
+mkdir devops/ansible
+
+cd: to change directory
+
+cd .. to go one directory up or above
+cd : it takes to home directory
+
+cd ~ : it takes to home directory
+ls -l
+
+/ - root directory
+
+absolute path:  /home/ubuntu/devops/
+
+relative path: cd devops
+
+hidden files or directories
+
+
+ls -la to see all files and folders
+
+
+
+touch aws.txt - to create an empty file
+
+
+/home : user's home directories
+/tmp : temporary files or directories
+/etc: configuration files or folders
+/dev: devices
+
+cat > aws.txt -> press enter -> then content -> press enter-> ctrl+c
+
+
+cat aws.txt: to read the content of aws.txt
+
+cat > aws.txt : to override or create 
+
+cat >> aws.txt => to append content
+
+
+cp source destination
+
+
+mv source new_file_or_directory_name
+cp -r source destination
+
+wget url
+
+wget -o filename.zip url
+
+curl url
+
+
+grep: to find content
+
+grep "content to search" filename
+
+grep -i : case insensitive (ignores the case)
+
+grep -in : to see line number and case insensitive
+
+grep -iv : to see invert-match
+
+
+
+| pipe
+
+cat sample.txt | grep -i priya
+
+1 		2     3        4  
+
+landscape  :  x   :   103   :  106::/var/lib/landscape:/usr/sbin/nologin
+
+
+
+cut -d ":" -f 1,3 filename.txt
+
+
+
+awk -F ":" '{print $1,$3}' users
+
+awk -F ":" '$3 < 1000 {print $1,$3}' users
+
+
+userids >= 1000
+root user id: 0
+system user ids: < 1000
+
+
+
+
+
+vim and nano editors
+
+
+
+vim filename.txt
+command mode and insert mode
+
+:wq! - to save and exit or shift zz or capital ZZ
+
+:q - to exit without changes
+:q! - to force quit
+:set number or :set nu  - to set numbers
+
+:line number you wanna jump
+/ word-to-search
+
+
+:15d - to delete line number 15
+press u to undo
+
+ctrl+r - to redo
+
+shift+g - goes to last line
+
+gg - goes to top of the file
+
+press o: to get insert mode in next line
+
+
+:20,25d - delete lines from 20 to 25 lines
+
+:%d - to delete everything
+:s/old-word/new-word  - it replaces only first occurrence in the line - current line
+
+yy - to copy line
+p - paste it
+
+%s/old-word/new-word - it replaces only first occurrence in all the lines
+
+%s/old-word/new-word/g - it replaces all occurrence in all the lines
+
