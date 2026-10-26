@@ -1,0 +1,86 @@
+Day-7:
+
+Understand 3 tier architecture
+
+
+Frontend
+backend
+database - RDBMS (MySQL)
+
+
+Database (Schema) - Tables, 
+
+
+Roll No: primary key, foreign key
+
+ParentID: (primary key)
+
+
+
+buildfile		Technology		common build approach
+
+pom.xml			Java			Maven/mvn
+build.gradle		Java, kotlin, Android   gradle
+
+package.json		nodejs, javascript      npm, pnpm
+
+requirements.txt	Python			pip, or uv
+
+.csproj			dot net/.NET		.NET CLI or MS Build
+go.mod			Go			go build
+
+		
+
+
+Server EC2
+
+
+
+App servers: glassfish, Wildly, Nodejs
+DB server: MySQL
+Frontend: HTTP (nginx, apache, IIS)
+
+
+
+
+Backend:
+
+Install nodejs and npm
+
+/opt/app
+clone code
+
+npm run build
+start the application
+
+
+mysql -h 172.31.39.231 -u shopuser -p
+
+
+ChangeMe123!
+
+
+show databases;  to see all databases
+
+use shoplite;    to use shoplite database
+  
+show tables;  to see all tables
+
+select * from products;    to checok everything on products table
+
+
+/etc/system/system/app.service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
