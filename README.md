@@ -18,6 +18,7 @@ text form — so you can follow along while watching instead of pausing to type.
 | Day 4 | [day-4.txt](day-4.txt) | File & directory commands (`mkdir`, `cd`, `ls`, `touch`, `cp`, `mv`), absolute vs relative paths, key system directories, reading & writing files with `cat`, downloads with `wget`/`curl`, text processing with `grep`, pipes, `cut` and `awk`, editing in vim |
 | Day 5 | [day-5.txt](day-5.txt) | User & group management (`useradd`, `usermod`, `userdel`, `groupadd`), sudo and `/etc/sudoers`, SSH config and `authorized_keys`, ownership with `chown`, file permissions and `chmod` (numeric and symbolic) |
 | Day 6 | [day-6.txt](day-6.txt) | Compression with `zip` and `tar`, searching with `find`, offboarding a user safely, package managers per distro (`apt`/`dpkg`, `dnf`/`yum`/`rpm`), service management with `systemctl`, process management (`kill`), `netstat`/`ss` |
+| Day 7 | [day-7.txt](day-7.txt) | 3-tier architecture (frontend / backend / database), RDBMS schemas and keys, build files & build tools per language, app vs DB vs web servers, deploying the backend on EC2, MySQL basics, systemd service files |
 
 ## How to use these notes
 
